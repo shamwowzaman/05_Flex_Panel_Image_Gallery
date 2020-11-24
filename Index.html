@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Flex Panels</title>
+        <link href="https://fonts.googleapis.com/css?family=Amatic+sc" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <style>
+            html {
+                box-sizing: border-box;
+                background: #ffc600;
+                font-family: Helvetica;
+                font-size: 20px;
+                font-weight: 200;
+            }
+            body {
+                margin: 0;
+            }
+            *, *::before, *::after {
+                box-sizing: inherit;
+            }
+
+            .panels {
+                min-height: 100vh;
+                overflow: hidden;
+            }
+
+            .panel {
+                background: #6B0F9C;
+                box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.1);color: white;
+                text-align: center;
+                align-items: center;
+                transition:
+                    font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -.011),
+                    flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -.011),
+                    background 0.2s;
+                font-size: 20px;
+                background-size: cover;
+                background-position: center;
+            }
+            
+        </style>
+    </body>
+</html>
